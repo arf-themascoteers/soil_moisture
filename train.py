@@ -1,4 +1,4 @@
-from lstm_machine import Machine
+from cnn_1d_machine import Machine
 from torch.utils.data import DataLoader
 import torch.nn.functional as F
 import torch

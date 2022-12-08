@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import DataLoader
 from sm_dataset import SM_Dataset
-from lstm_machine import Machine
+from cnn_1d_machine import Machine
 from sklearn.metrics import r2_score
 
 
