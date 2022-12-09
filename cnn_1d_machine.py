@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
 
-class Machine(nn.Module):
+
+class CNN1DMachine(nn.Module):
     def __init__(self):
         super().__init__()
         self.band_net = nn.Sequential(
